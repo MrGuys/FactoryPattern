@@ -332,9 +332,9 @@ NSLog(@"生产产品;%@",afOperation.product);
 
 
 参考资料
-[iOS常用设计模式](http://blog.csdn.net/casablaneca/article/details/39851457#objc)
-[iOS应用设计模式开发中对简单工厂和工厂方法模式的运用](http://www.jb51.net/article/81497.htm)
-[IOS设计模式浅析之抽象工厂模式](http://www.cnblogs.com/eagle927183/p/3479644.html)
-[[设计模式深入学习IOS版（4）抽象工厂模式](http://blog.csdn.net/developer_zhang/article/details/19619927)](http://blog.csdn.net/developer_zhang/article/details/19619927?utm_source=tuicool&utm_medium=referral)
+[iOS常用设计模式](http://blog.csdn.net/casablaneca/article/details/39851457#objc) <br>
+[iOS应用设计模式开发中对简单工厂和工厂方法模式的运用](http://www.jb51.net/article/81497.htm)<br>
+[IOS设计模式浅析之抽象工厂模式](http://www.cnblogs.com/eagle927183/p/3479644.html)<br>
+[[设计模式深入学习IOS版（4）抽象工厂模式](http://blog.csdn.net/developer_zhang/article/details/19619927)](http://blog.csdn.net/developer_zhang/article/details/19619927?utm_source=tuicool&utm_medium=referral)<br>
 
 
