@@ -330,14 +330,11 @@ NSLog(@"生产产品;%@",afOperation.product);
 
 总结:从简单工厂模式到工厂模式，再到抽象工厂模式。可以看到整个模式的一步步演进。简单工厂模式在产品多样之后，整个工厂将会变得臃肿而难以维护。于是我们将简单工厂模式中的工程做了抽象处理，这样每种产品对应一个工厂。这样无疑会增加代码量。但是好处是显而易见的，单独让一个工厂处理一种产品会让逻辑变得好维护。但是这样还不够，因为增加新的品类，就会产生新的类，对于调用者来说，处理太多具有相同接口的类显然是不合算的。于是，我们使用抽象工厂模式来解决这个问题。我们让抽象工厂内部做一个封装，用以隐藏真正的具体工厂。这样，对于调用者来说，即时内部增加了新的产品，你也是不知道的。
 
-> 
+
 参考资料
 [iOS常用设计模式](http://blog.csdn.net/casablaneca/article/details/39851457#objc)
-
 [iOS应用设计模式开发中对简单工厂和工厂方法模式的运用](http://www.jb51.net/article/81497.htm)
-
 [IOS设计模式浅析之抽象工厂模式](http://www.cnblogs.com/eagle927183/p/3479644.html)
-
 [[设计模式深入学习IOS版（4）抽象工厂模式](http://blog.csdn.net/developer_zhang/article/details/19619927)](http://blog.csdn.net/developer_zhang/article/details/19619927?utm_source=tuicool&utm_medium=referral)
 
 
